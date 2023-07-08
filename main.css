@@ -1,0 +1,19 @@
+img {
+    width: 200px;
+}
+
+ul {
+    list-style: none;
+}
+
+.mainpage {
+    font-weight: bold;
+    color: blue;
+    background-color: red;
+}
+
+li {
+    background-color: blueviolet;
+    font-family: "Comic Sans";
+    font-weight: bold;
+}
