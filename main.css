@@ -1,19 +1,60 @@
 img {
-    width: 200px;
+
 }
 
 ul {
-    list-style: none;
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
 }
 
 .mainpage {
     font-weight: bold;
     color: blue;
-    background-color: red;
+    background: #e7eaf6;
+}
+.list {
+    background: #a2a8d3;
+    font-family: "Helvetica", "sans-serif";
+    font-weight: bold;
+    padding: 13px;
+    border: 2px;
+    border-color: black;
+}
+.third-color { 
+	background: #38598b; 
 }
 
-li {
-    background-color: blueviolet;
-    font-family: "Comic Sans";
-    font-weight: bold;
+.fourth-color { 
+	background: #113f67;
+}
+.link_divider {
+    width: 50%;
+    height: auto;
+}
+.photo-op {
+ margin: 16px;
+ padding: 0px;
+ background-color: #113f67;
+ width: 200px;
+ height: auto;
+ display:inline-block;
+ margin-bottom: -20px;
+}
+.ingredients {
+    display: inline-block;
+    background-color: #113f67;
+    color: white;
+    margin: auto;
+    margin-bottom: 30px;
+    padding: 16px;
+    text-align: left;
+}
+.steps {
+    background-color: #38598b;
+    color: white;
+    padding: 8px;
+    width: 75%;
+    text-align: left;
+    margin: left;
 }
